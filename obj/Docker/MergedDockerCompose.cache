@@ -1,5 +1,37 @@
-name: dockercompose15078745519308150148
+name: dockercompose15455339528035202351
 services:
+  apigateway:
+    build:
+      context: C:\Users\raj.kumar\Desktop\Clean-Architecture-Microservices-Demo
+      dockerfile: ApiGateway/Dockerfile
+    container_name: api-gateway
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apigateway
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
+    - mode: ingress
+      target: 80
+      published: "8001"
+      protocol: tcp
+  authenticationwebapi:
+    build:
+      context: C:\Users\raj.kumar\Desktop\Clean-Architecture-Microservices-Demo
+      dockerfile: AuthenticationWebApi/Dockerfile
+    container_name: authentication-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: authenticationwebapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
   customerdb:
     container_name: customer-db
     environment:
@@ -11,11 +43,11 @@ services:
     ports:
     - mode: ingress
       target: 1433
-      published: "8001"
+      published: "18001"
       protocol: tcp
   customerwebapi:
     build:
-      context: C:\Users\raj.kumar\Desktop\angular\DemoMicroserviceSolution
+      context: C:\Users\raj.kumar\Desktop\Clean-Architecture-Microservices-Demo
       dockerfile: CustomerWebApi/Dockerfile
     container_name: customer-api
     environment:
@@ -32,15 +64,7 @@ services:
       target: 80
       protocol: tcp
     - mode: ingress
-      target: 80
-      published: "8002"
-      protocol: tcp
-    - mode: ingress
       target: 443
-      protocol: tcp
-    - mode: ingress
-      target: 443
-      published: "8002"
       protocol: tcp
     volumes:
     - type: bind
@@ -55,6 +79,32 @@ services:
       read_only: true
       bind:
         create_host_path: true
+  orderdb:
+    container_name: order-db
+    image: mongo
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 27017
+      published: "18005"
+      protocol: tcp
+  orderwebapi:
+    build:
+      context: C:\Users\raj.kumar\Desktop\Clean-Architecture-Microservices-Demo
+      dockerfile: OrderWebApi/Dockerfile
+    container_name: order-api
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      DB_HOST: orderdb
+      DB_NAME: dms_order
+    image: orderwebapi
+    networks:
+      backend: null
+    ports:
+    - mode: ingress
+      target: 80
+      protocol: tcp
   productdb:
     container_name: product-db
     environment:
@@ -65,11 +115,11 @@ services:
     ports:
     - mode: ingress
       target: 3306
-      published: "8003"
+      published: "18003"
       protocol: tcp
   productwebapi:
     build:
-      context: C:\Users\raj.kumar\Desktop\angular\DemoMicroserviceSolution
+      context: C:\Users\raj.kumar\Desktop\Clean-Architecture-Microservices-Demo
       dockerfile: ProductWebApi/Dockerfile
     container_name: product-api
     environment:
@@ -84,10 +134,6 @@ services:
     - mode: ingress
       target: 80
       protocol: tcp
-    - mode: ingress
-      target: 80
-      published: "8004"
-      protocol: tcp
 networks:
   backend:
-    name: dockercompose15078745519308150148_backend
+    name: dockercompose15455339528035202351_backend

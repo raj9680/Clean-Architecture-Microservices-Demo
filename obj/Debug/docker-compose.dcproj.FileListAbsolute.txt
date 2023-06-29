@@ -76,3 +76,4 @@ C:\Users\raj.kumar\Desktop\angular\DemoMicroserviceSolution\bin\Debug\Microsoft.
 C:\Users\raj.kumar\Desktop\angular\DemoMicroserviceSolution\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
 C:\Users\raj.kumar\Desktop\angular\DemoMicroserviceSolution\bin\Debug\AuthenticationWebApi.pdb
 C:\Users\raj.kumar\Desktop\angular\DemoMicroserviceSolution\bin\Debug\JwtAuthenticationManager.pdb
+C:\Users\raj.kumar\Desktop\Clean-Architecture-Microservices-Demo\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

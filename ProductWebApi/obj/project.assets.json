@@ -1618,11 +1618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\ProductWebApi\\ProductWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\ProductWebApi\\ProductWebApi.csproj",
       "projectName": "ProductWebApi",
-      "projectPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\ProductWebApi\\ProductWebApi.csproj",
+      "projectPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\ProductWebApi\\ProductWebApi.csproj",
       "packagesPath": "C:\\Users\\raj.kumar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\ProductWebApi\\obj\\",
+      "outputPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\ProductWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\raj.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",

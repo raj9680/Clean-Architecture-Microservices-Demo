@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WLKGunGUWFvk7BAzzob4Z7Me4Gx2kpImZIJytEE/2Q/NbXYgSdAStrmSq7pR+J50dkfAlO9qHLU3ztSIZEeWIQ==",
+  "dgSpecHash": "OG35w2xoM0M5zZqJRJjCHzRHoYp4sqXZD0xisOCTN+xW1AiB4cu7lnW6oUY2mn6m7RdGr7mEMWqBAgwZq2S0Rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\OrderWebApi\\OrderWebApi.csproj",
+  "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\OrderWebApi\\OrderWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raj.kumar\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

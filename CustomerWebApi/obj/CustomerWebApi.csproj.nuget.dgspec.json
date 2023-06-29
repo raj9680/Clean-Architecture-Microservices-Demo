@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\CustomerWebApi\\CustomerWebApi.csproj": {}
+    "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\CustomerWebApi\\CustomerWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\CustomerWebApi\\CustomerWebApi.csproj": {
+    "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\CustomerWebApi\\CustomerWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\CustomerWebApi\\CustomerWebApi.csproj",
+        "projectUniqueName": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\CustomerWebApi\\CustomerWebApi.csproj",
         "projectName": "CustomerWebApi",
-        "projectPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\CustomerWebApi\\CustomerWebApi.csproj",
+        "projectPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\CustomerWebApi\\CustomerWebApi.csproj",
         "packagesPath": "C:\\Users\\raj.kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\CustomerWebApi\\obj\\",
+        "outputPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\CustomerWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\raj.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj": {
-                "projectPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj"
+              "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj": {
+                "projectPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj": {
+    "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj",
+        "projectUniqueName": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj",
         "projectName": "JwtAuthenticationManager",
-        "projectPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj",
+        "projectPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\JwtAuthenticationManager\\JwtAuthenticationManager.csproj",
         "packagesPath": "C:\\Users\\raj.kumar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\JwtAuthenticationManager\\obj\\",
+        "outputPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\JwtAuthenticationManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\raj.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",

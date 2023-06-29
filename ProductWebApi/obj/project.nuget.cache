@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MG+eufoS3UR+X+uP/xFJwOg7jUfvJts1fSpFErSxeZz3HWjGCzL1vNP0GqqOiBYAlZaqJ2O13sIRfQkU0hRxLg==",
+  "dgSpecHash": "7ocphH6jgobz8DQIkYKJhuSMQ8Za/V4QBPXLDBDuM2xbUSrP1jVoYYdUNKVRkAq/CUUCBKBG90xDXtDwQ/+mBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\ProductWebApi\\ProductWebApi.csproj",
+  "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\ProductWebApi\\ProductWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raj.kumar\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",

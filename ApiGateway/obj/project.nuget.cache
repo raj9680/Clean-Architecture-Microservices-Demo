@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/6O3KSRH50gXiL7XNb6XMVH0J9poFCa8RXc2UsmmlBLQMob5bgoc/PGX7aB6FrAAlDK79BMSUUsludb3Cxe/BA==",
+  "dgSpecHash": "2pFH7fb0zuxaJWoifNXmK6gQt9gCSjaxfo5scx/sXuJiJXxM5DVsKyvXQvbuultao2c1mgbRf9YO6o26sXLADw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\ApiGateway\\ApiGateway.csproj",
+  "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\ApiGateway\\ApiGateway.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raj.kumar\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",

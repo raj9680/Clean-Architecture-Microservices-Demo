@@ -845,11 +845,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\OrderWebApi\\OrderWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\OrderWebApi\\OrderWebApi.csproj",
       "projectName": "OrderWebApi",
-      "projectPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\OrderWebApi\\OrderWebApi.csproj",
+      "projectPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\OrderWebApi\\OrderWebApi.csproj",
       "packagesPath": "C:\\Users\\raj.kumar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\OrderWebApi\\obj\\",
+      "outputPath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\OrderWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\raj.kumar\\AppData\\Roaming\\NuGet\\NuGet.Config",

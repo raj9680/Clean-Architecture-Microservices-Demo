@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kWK9UkWsoVXZzcYMCANoygAH8YyDWF09TjtHx0k0A4ZFI0s0/9W9SM6G50BpQvT96PfJ6gfn2fOluDLvUlwraw==",
+  "dgSpecHash": "x7wE+n8Ypkwht0DeGHBFQAcUy2zvDY7cp8H8YiUyrU3ioYMH6xwpg4uy0+XhxLnx7bBN4WGfFw8EpbDKAnGBpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\angular\\DemoMicroserviceSolution\\CustomerWebApi\\CustomerWebApi.csproj",
+  "projectFilePath": "C:\\Users\\raj.kumar\\Desktop\\Clean-Architecture-Microservices-Demo\\CustomerWebApi\\CustomerWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\raj.kumar\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\raj.kumar\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.7\\microsoft.aspnetcore.authentication.jwtbearer.6.0.7.nupkg.sha512",
